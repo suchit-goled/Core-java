@@ -1,0 +1,6 @@
+what is static method? how do you call a static method? explain with syntax
+
+static method is the method which can be used anywhere and that method has the static behaviour 
+to call a method in another class we will invoke with the help of class name and method name, we will check the parameters to give the values 
+
+Syntax: ClassName.methodName(parameter*)

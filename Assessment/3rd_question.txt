@@ -1,0 +1,7 @@
+what is jvm? Explain its role in java 
+
+jvm refers to java virtual machine, which is a tool which understand the code of type .class this jvm help to run all the java files which has .class in any machine, which helps not to write code again and again in other devices 
+this jvm is present in almost devices to run th java files written once, this only makes define the term called "write once, run anywhere"
+
+jvm role in java is it make ease to only run the code in any machine without rewritting it which makes java programming a special feautre 
+

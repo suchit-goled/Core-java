@@ -1,0 +1,9 @@
+explain the architecture of jdk in detail.
+
+jdk refers to java development kit which help to write code and run the files 
+this jdk consist of three main folders which are bin, jre and lib
+where bin has javac tool which converts the java files written in normal english into bytecode this bytecode is understood by the jvm, the jvm then converts this bytecode into machine code 
+then the machine code is executed by the jre using the libraries required to run the programm 
+
+jre is th java runtime environment which help to execute the code which ahs necessary libaries in it 
+lib folder generally has all the libraires 

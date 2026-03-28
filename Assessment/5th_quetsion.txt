@@ -1,0 +1,5 @@
+explain the concept of bytecode in java 
+
+in java bytecode is basically created by the javac tool which is also called as java compiler this complier first check the code which has the keyword 
+named as class, this class keyword help to convert the .java into bytecode, as jvm does not understad the programm written by the coders hence to understand this first the javac tool converts the .java into nytecode which is .class 
+this .class can be undertsood by the jvm and further process happens like conversion into machine language and runnning the machine code 

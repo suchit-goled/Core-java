@@ -1,0 +1,13 @@
+what are variables in java? differentiate between static and local variables
+  variables are the containers which stores the values address, it is a refernec name which points to the address of the value
+  these are defined with the datatype; the datatype defined to that varibale can only store those datatype values, the values are assigned with = and ends the statement with ;
+  
+  varibles can be defined in four ways static, non static, local, parameter
+  
+  static varibale:  these varibales are defined inside the class and can be access or used in any method in that class 
+  Syntax: Static int age;
+  
+  local: these variable are defined inside the block code and can be used withing that block and cannot be access outside the block in that class
+  Syntax:{ int age;}
+  
+  

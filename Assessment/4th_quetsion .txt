@@ -1,0 +1,6 @@
+explain the process of "write once, run anywhere"
+
+write once, run anywhere is one of the top characters of the java which means the java file written in one device can be run in any other device without rewritting it 
+this happens only through the javac tool which is tool which converts .java into .class 
+this .class can be understood by any machine which has jvm in it, becuase jvm only undertsands bytecode created by javac tool 
+to run this file we need jvm to be installed in those devices which we are going to run the programm 

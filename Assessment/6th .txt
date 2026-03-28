@@ -1,0 +1,11 @@
+what do you mean by datatypes adn differentiate between primitive and non primtive data types with and example 
+
+
+datatype are the keywords which defines the type of the variable which we are going to store 
+datatypes are of two types one is primitive and non primitive 
+primitive datatype are the pre defined datatypes in java which are keywords these are 8 
+examples: int types, byte,short,int,long,float,double,string,and char
+
+non primitive data types are the datatypes which are also know as classes the class can be used as our own datatype, these datatypes are infinite in numbers
+examples: Bottle, Pen, Book etc...
+the value given to that variable should be of same datatype, if we give other datatype it will give an error stating one varibale type cannot be converted into another 

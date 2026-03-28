@@ -1,0 +1,6 @@
+what is java ? why java is know as platform independent 
+
+java is a programming langauge introduced by james gosling in the year 1995, java help us to build various application, like web, mobile, we servers and many more,
+java help is platform indepedence because those fles can be run on any machine with any software, 
+like if th code is written in one machine that machine jvm creats the byte code file with the etension .class this .class file can be run on any  machine which has jre which is a java run tool
+
