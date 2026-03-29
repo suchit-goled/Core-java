@@ -12,7 +12,7 @@ class ShopKeeper{
 		System.out.println("profit of the week is:"+profit);
 		return ;
 		
-		
+	
 	}
  }
  

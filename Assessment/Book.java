@@ -25,12 +25,5 @@ class Book{
 
 
 
-class BookRunner{
-	
-	  Book price1 =	new book(){
-	  System.out.println("the price of the book is:"+Book.price1);
-	  }
-	  
-	
-}
+
 
