@@ -11,7 +11,35 @@ class Boomer {
     String type;
     boolean isAvailable;
 
-    public Boomer(String brand, String flavor, String color, double price, int quantity,
+   
+   
+   
+	public Boomer(boolean isSugarFree, String shape){
+		
+		this.isSugarFree = isSugarFree;
+        this.shape = shape;
+	}
+	
+	public Boomer(double price, int quantity){
+		
+		this.price = price;
+        this.quantity = quantity;
+	}
+	
+	public Boomer(String brand){
+		
+		this.isSugarFree = isSugarFree;
+        this.shape = shape;
+	}
+	
+	public Boomer(String color, double price){
+		
+		this.color = color;
+        this.price = price;
+	}
+
+
+   public Boomer(String brand, String flavor, String color, double price, int quantity,
                   boolean isSugarFree, String shape, double weight, String type, boolean isAvailable) {
 
         System.out.println("displaying properties of Boomer");
@@ -27,6 +55,8 @@ class Boomer {
         this.type = type;
         this.isAvailable = isAvailable;
     }
+	
+
 
     void properties() {
 
