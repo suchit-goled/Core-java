@@ -10,6 +10,41 @@ class Tyre {
     int durability;
     boolean isAllWeather;
     boolean isAvailable;
+	
+	public Tyre(String brand, String type, String size, double price){
+		System.out.println("displaying properties of Tyre");
+		
+		this.brand = brand;
+        this.type = type;
+        this.size = size;
+        this.price = price;
+	}
+	
+	public Tyre( String type,String vehicleType){
+		
+		System.out.println("displaying properties of Tyre");
+		this.type = type;
+		this.vehicleType = vehicleType;
+		
+	}
+	
+	public Tyre(boolean isAllWeather, int durability, double price){
+		System.out.println("displaying properties of Tyre");
+		
+		this.isAllWeather=isAllWeather;
+		this.durability=durability;
+		this.price=price;
+		
+	}
+	
+	public Tyre(String size, boolean isTubeless, double price, int durability){
+		System.out.println("displaying properties of Tyre");
+		
+		this.isAllWeather=isAllWeather;
+		this.durability=durability;
+		this.price=price;
+		
+	}
 
     public Tyre(String brand, String type, String size, double price,
                 boolean isTubeless, String vehicleType, String material,

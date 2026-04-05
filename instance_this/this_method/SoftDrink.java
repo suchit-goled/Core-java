@@ -11,7 +11,45 @@ class SoftDrink {
     String packaging;
     boolean isAvailable;
 
-    public SoftDrink(String brand, String flavor, String color, double price, int quantity,
+    
+	 public SoftDrink(String brand, String flavor, boolean isAvailable) {
+
+        System.out.println("displaying properties of SoftDrink");
+
+        this.brand = brand;
+        this.flavor = flavor;
+        this.isAvailable = isAvailable;
+    }
+	
+	 public SoftDrink( double price, int quantity) {
+
+        System.out.println("displaying properties of SoftDrink");
+
+       
+        this.price = price;
+        this.quantity = quantity;
+    }
+	
+	 public SoftDrink(int quantity,boolean isCarbonated) {
+
+        System.out.println("displaying properties of SoftDrink");
+
+       
+        this.quantity = quantity;
+        this.isCarbonated = isCarbonated;
+       
+    }
+	
+	 public SoftDrink(String brand, double volume, boolean isAvailable) {
+
+        System.out.println("displaying properties of SoftDrink");
+
+        this.brand = brand;
+        this.volume = volume;
+        this.isAvailable = isAvailable;
+    }
+	
+	public SoftDrink(String brand, String flavor, String color, double price, int quantity,
                      boolean isCarbonated, String size, double volume, String packaging, boolean isAvailable) {
 
         System.out.println("displaying properties of SoftDrink");

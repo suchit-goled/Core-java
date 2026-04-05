@@ -11,6 +11,44 @@ class Rocket {
     String manufacturer;
     boolean isActive;
 
+
+    public Rocket(String name, double height,boolean isActive) {
+
+        System.out.println("displaying properties of Rocket");
+
+        this.name = name;
+        this.height = height;
+        this.isActive = isActive;
+    }
+	
+	public Rocket( int stages,boolean isReusable) {
+
+        System.out.println("displaying properties of Rocket");
+
+        
+        this.stages = stages;
+        this.isReusable = isReusable;
+       
+	}
+	public Rocket( double weight, int stages,boolean isActive) {
+
+        System.out.println("displaying properties of Rocket");
+
+        this.weight = weight;
+        this.stages = stages;
+        this.isActive = isActive;
+    }
+	
+	public Rocket(String name,boolean isActive) {
+
+        System.out.println("displaying properties of Rocket");
+
+        this.name = name;
+        this.isActive = isActive;
+    }
+	
+	
+
     public Rocket(String name, String country, double height, double weight, int stages,
                   boolean isReusable, String fuelType, double payloadCapacity,
                   String manufacturer, boolean isActive) {
