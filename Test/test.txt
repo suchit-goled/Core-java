@@ -1,0 +1,76 @@
+1) what is class?
+
+A: class is a custom datatype which has the 4 principles in it, inheritance, polymorphism, abstraction and encapsulation
+class has 2 members variable and method
+
+2) write a program to create a class car and display its properties 
+A: class Car{
+	
+	String brand;
+	int price;
+	int noOfSeats;
+
+ 	car(String brand, Int price, int noOfSeats,){
+		System.out.println("Brand :"+brand);
+		System.out.println("price :"+price);
+		System.out.println("noOfSeats :"+noOfSeats);
+	}
+	
+	public static void main(String[] args){
+	
+	Car car=new car;
+	
+    }
+
+3) what is a method in java?
+A: method is a member of the class where the particular set of code which has a return type,  the method can have to types of return types on is void and another one is non-void, void is the one which has no return type and the non void include all the datatypes where the method should return the datatype of same 
+
+
+4) what is method overloading?
+A: when a method is written with same name and with different parameters the method is called method overloading, if the parameters are same it gives an error, the two methods can be written with same name but the condition is it should contain different parameters.
+
+5) what is a constructor?
+A: construct in java is special method which has no return type and his constructor is of two types default and user defined, the default one is which is given by the compiler while compiling which has no argument constructor and the user defined one which is written by the devlps, it has a super() as a first statement which is a default chaining for the parent constructor
+
+6) what are the types of constructors?
+ A: constructor is of two types default and user defined, the default one is which is given by the compiler while compiling which has no argument constructor and the user defined one which is written by the devlps, it has a super() as a first statement which is a default chaining for the parent constructor
+
+7) what is the this keyword in java?
+A: this keyword is actually refers to the instance variables which this keyword is used to access the instance variables for assigning the values or return the value of the instance variables and methods.
+
+8) class Bag{
+
+	int price;
+	int noOfZips;
+	double weight;
+
+	Bag(int price,	int noOfZips,	double weight;){
+		this.price=price;
+		this.noOfZips=noOfZips;
+		this.weight=weight;
+}
+}
+
+
+
+
+9) a) class Star{
+
+public static void main(String[] args){
+	
+	for(i=0;i<5;i++)
+		for(j=0;j<5;j++){
+		System.out.println("*");
+}
+}
+
+
+b) class Triangle{
+
+public static void main(String[] args){
+
+	for(i=0;i<5;i++)
+		for(j=0;5-i;j++){
+		System.out.println("*");
+	}
+}

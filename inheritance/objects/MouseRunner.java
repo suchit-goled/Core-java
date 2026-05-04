@@ -1,0 +1,354 @@
+class MouseRunner{
+
+	public static void main(String[] values){
+
+		Mouse m1=new Mouse();
+		m1.color="Black";
+		m1.type="Wireless";
+		m1.price=700;
+		m1.buttons=3;
+		m1.rgb=false;
+		m1.brand="Logitech";
+		m1.dpi=1600;
+		m1.connectivity="Bluetooth";
+		m1.rechargeable=true;
+		m1.model="M101";
+		m1.weight=120;
+		m1.sensor="Optical";
+		m1.origin="China";
+		m1.warranty=1;
+		m1.silent=true;
+
+		System.out.println("updated color:"+m1.color);
+		System.out.println("updated type:"+m1.type);
+		System.out.println("updated price:"+m1.price);
+		System.out.println("updated buttons:"+m1.buttons);
+		System.out.println("updated rgb:"+m1.rgb);
+		System.out.println("updated brand:"+m1.brand);
+		System.out.println("updated dpi:"+m1.dpi);
+		System.out.println("updated connectivity:"+m1.connectivity);
+		System.out.println("updated rechargeable:"+m1.rechargeable);
+		System.out.println("updated model:"+m1.model);
+		System.out.println("updated weight:"+m1.weight);
+		System.out.println("updated sensor:"+m1.sensor);
+		System.out.println("updated origin:"+m1.origin);
+		System.out.println("updated warranty:"+m1.warranty);
+		System.out.println("updated silent:"+m1.silent);
+		System.out.println("");
+
+
+		Mouse m2=new Mouse();
+		m2.color="White";
+		m2.type="Wired";
+		m2.price=500;
+		m2.buttons=3;
+		m2.rgb=false;
+		m2.brand="HP";
+		m2.dpi=1200;
+		m2.connectivity="USB";
+		m2.rechargeable=false;
+		m2.model="M102";
+		m2.weight=100;
+		m2.sensor="Laser";
+		m2.origin="India";
+		m2.warranty=2;
+		m2.silent=true;
+
+		System.out.println("updated color:"+m2.color);
+		System.out.println("updated type:"+m2.type);
+		System.out.println("updated price:"+m2.price);
+		System.out.println("updated buttons:"+m2.buttons);
+		System.out.println("updated rgb:"+m2.rgb);
+		System.out.println("updated brand:"+m2.brand);
+		System.out.println("updated dpi:"+m2.dpi);
+		System.out.println("updated connectivity:"+m2.connectivity);
+		System.out.println("updated rechargeable:"+m2.rechargeable);
+		System.out.println("updated model:"+m2.model);
+		System.out.println("updated weight:"+m2.weight);
+		System.out.println("updated sensor:"+m2.sensor);
+		System.out.println("updated origin:"+m2.origin);
+		System.out.println("updated warranty:"+m2.warranty);
+		System.out.println("updated silent:"+m2.silent);
+		System.out.println("");
+
+
+		Mouse m3=new Mouse();
+		m3.color="Red";
+		m3.type="Wireless";
+		m3.price=900;
+		m3.buttons=5;
+		m3.rgb=true;
+		m3.brand="Dell";
+		m3.dpi=2000;
+		m3.connectivity="Bluetooth";
+		m3.rechargeable=true;
+		m3.model="M103";
+		m3.weight=130;
+		m3.sensor="Optical";
+		m3.origin="USA";
+		m3.warranty=2;
+		m3.silent=false;
+
+		System.out.println("updated color:"+m3.color);
+		System.out.println("updated type:"+m3.type);
+		System.out.println("updated price:"+m3.price);
+		System.out.println("updated buttons:"+m3.buttons);
+		System.out.println("updated rgb:"+m3.rgb);
+		System.out.println("updated brand:"+m3.brand);
+		System.out.println("updated dpi:"+m3.dpi);
+		System.out.println("updated connectivity:"+m3.connectivity);
+		System.out.println("updated rechargeable:"+m3.rechargeable);
+		System.out.println("updated model:"+m3.model);
+		System.out.println("updated weight:"+m3.weight);
+		System.out.println("updated sensor:"+m3.sensor);
+		System.out.println("updated origin:"+m3.origin);
+		System.out.println("updated warranty:"+m3.warranty);
+		System.out.println("updated silent:"+m3.silent);
+		System.out.println("");
+
+
+		Mouse m4=new Mouse();
+		m4.color="Blue";
+		m4.type="Wireless";
+		m4.price=850;
+		m4.buttons=4;
+		m4.rgb=true;
+		m4.brand="Lenovo";
+		m4.dpi=1800;
+		m4.connectivity="Bluetooth";
+		m4.rechargeable=true;
+		m4.model="M104";
+		m4.weight=125;
+		m4.sensor="Optical";
+		m4.origin="India";
+		m4.warranty=1;
+		m4.silent=true;
+
+		System.out.println("updated color:"+m4.color);
+		System.out.println("updated type:"+m4.type);
+		System.out.println("updated price:"+m4.price);
+		System.out.println("updated buttons:"+m4.buttons);
+		System.out.println("updated rgb:"+m4.rgb);
+		System.out.println("updated brand:"+m4.brand);
+		System.out.println("updated dpi:"+m4.dpi);
+		System.out.println("updated connectivity:"+m4.connectivity);
+		System.out.println("updated rechargeable:"+m4.rechargeable);
+		System.out.println("updated model:"+m4.model);
+		System.out.println("updated weight:"+m4.weight);
+		System.out.println("updated sensor:"+m4.sensor);
+		System.out.println("updated origin:"+m4.origin);
+		System.out.println("updated warranty:"+m4.warranty);
+		System.out.println("updated silent:"+m4.silent);
+		System.out.println("");
+
+
+		Mouse m5=new Mouse();
+		m5.color="Green";
+		m5.type="Wireless";
+		m5.price=750;
+		m5.buttons=4;
+		m5.rgb=false;
+		m5.brand="Asus";
+		m5.dpi=1400;
+		m5.connectivity="Bluetooth";
+		m5.rechargeable=true;
+		m5.model="M105";
+		m5.weight=115;
+		m5.sensor="Optical";
+		m5.origin="India";
+		m5.warranty=1;
+		m5.silent=true;
+
+		System.out.println("updated color:"+m5.color);
+		System.out.println("updated type:"+m5.type);
+		System.out.println("updated price:"+m5.price);
+		System.out.println("updated buttons:"+m5.buttons);
+		System.out.println("updated rgb:"+m5.rgb);
+		System.out.println("updated brand:"+m5.brand);
+		System.out.println("updated dpi:"+m5.dpi);
+		System.out.println("updated connectivity:"+m5.connectivity);
+		System.out.println("updated rechargeable:"+m5.rechargeable);
+		System.out.println("updated model:"+m5.model);
+		System.out.println("updated weight:"+m5.weight);
+		System.out.println("updated sensor:"+m5.sensor);
+		System.out.println("updated origin:"+m5.origin);
+		System.out.println("updated warranty:"+m5.warranty);
+		System.out.println("updated silent:"+m5.silent);
+		System.out.println("");
+
+
+		Mouse m6=new Mouse();
+		m6.color="Yellow";
+		m6.type="Wired";
+		m6.price=400;
+		m6.buttons=3;
+		m6.rgb=false;
+		m6.brand="Acer";
+		m6.dpi=1000;
+		m6.connectivity="USB";
+		m6.rechargeable=false;
+		m6.model="M106";
+		m6.weight=90;
+		m6.sensor="Laser";
+		m6.origin="India";
+		m6.warranty=1;
+		m6.silent=true;
+
+		System.out.println("updated color:"+m6.color);
+		System.out.println("updated type:"+m6.type);
+		System.out.println("updated price:"+m6.price);
+		System.out.println("updated buttons:"+m6.buttons);
+		System.out.println("updated rgb:"+m6.rgb);
+		System.out.println("updated brand:"+m6.brand);
+		System.out.println("updated dpi:"+m6.dpi);
+		System.out.println("updated connectivity:"+m6.connectivity);
+		System.out.println("updated rechargeable:"+m6.rechargeable);
+		System.out.println("updated model:"+m6.model);
+		System.out.println("updated weight:"+m6.weight);
+		System.out.println("updated sensor:"+m6.sensor);
+		System.out.println("updated origin:"+m6.origin);
+		System.out.println("updated warranty:"+m6.warranty);
+		System.out.println("updated silent:"+m6.silent);
+		System.out.println("");
+
+
+		Mouse m7=new Mouse();
+		m7.color="Pink";
+		m7.type="Wireless";
+		m7.price=950;
+		m7.buttons=6;
+		m7.rgb=true;
+		m7.brand="Zebronics";
+		m7.dpi=2400;
+		m7.connectivity="Bluetooth";
+		m7.rechargeable=true;
+		m7.model="M107";
+		m7.weight=135;
+		m7.sensor="Optical";
+		m7.origin="India";
+		m7.warranty=2;
+		m7.silent=false;
+
+		System.out.println("updated color:"+m7.color);
+		System.out.println("updated type:"+m7.type);
+		System.out.println("updated price:"+m7.price);
+		System.out.println("updated buttons:"+m7.buttons);
+		System.out.println("updated rgb:"+m7.rgb);
+		System.out.println("updated brand:"+m7.brand);
+		System.out.println("updated dpi:"+m7.dpi);
+		System.out.println("updated connectivity:"+m7.connectivity);
+		System.out.println("updated rechargeable:"+m7.rechargeable);
+		System.out.println("updated model:"+m7.model);
+		System.out.println("updated weight:"+m7.weight);
+		System.out.println("updated sensor:"+m7.sensor);
+		System.out.println("updated origin:"+m7.origin);
+		System.out.println("updated warranty:"+m7.warranty);
+		System.out.println("updated silent:"+m7.silent);
+		System.out.println("");
+
+
+		Mouse m8=new Mouse();
+		m8.color="Gray";
+		m8.type="Wireless";
+		m8.price=1100;
+		m8.buttons=5;
+		m8.rgb=true;
+		m8.brand="Apple";
+		m8.dpi=2000;
+		m8.connectivity="Bluetooth";
+		m8.rechargeable=true;
+		m8.model="M108";
+		m8.weight=110;
+		m8.sensor="Optical";
+		m8.origin="USA";
+		m8.warranty=1;
+		m8.silent=true;
+
+		System.out.println("updated color:"+m8.color);
+		System.out.println("updated type:"+m8.type);
+		System.out.println("updated price:"+m8.price);
+		System.out.println("updated buttons:"+m8.buttons);
+		System.out.println("updated rgb:"+m8.rgb);
+		System.out.println("updated brand:"+m8.brand);
+		System.out.println("updated dpi:"+m8.dpi);
+		System.out.println("updated connectivity:"+m8.connectivity);
+		System.out.println("updated rechargeable:"+m8.rechargeable);
+		System.out.println("updated model:"+m8.model);
+		System.out.println("updated weight:"+m8.weight);
+		System.out.println("updated sensor:"+m8.sensor);
+		System.out.println("updated origin:"+m8.origin);
+		System.out.println("updated warranty:"+m8.warranty);
+		System.out.println("updated silent:"+m8.silent);
+		System.out.println("");
+
+
+		Mouse m9=new Mouse();
+		m9.color="Orange";
+		m9.type="Wireless";
+		m9.price=650;
+		m9.buttons=4;
+		m9.rgb=false;
+		m9.brand="Logitech";
+		m9.dpi=1500;
+		m9.connectivity="Bluetooth";
+		m9.rechargeable=true;
+		m9.model="M109";
+		m9.weight=115;
+		m9.sensor="Optical";
+		m9.origin="China";
+		m9.warranty=1;
+		m9.silent=true;
+
+		System.out.println("updated color:"+m9.color);
+		System.out.println("updated type:"+m9.type);
+		System.out.println("updated price:"+m9.price);
+		System.out.println("updated buttons:"+m9.buttons);
+		System.out.println("updated rgb:"+m9.rgb);
+		System.out.println("updated brand:"+m9.brand);
+		System.out.println("updated dpi:"+m9.dpi);
+		System.out.println("updated connectivity:"+m9.connectivity);
+		System.out.println("updated rechargeable:"+m9.rechargeable);
+		System.out.println("updated model:"+m9.model);
+		System.out.println("updated weight:"+m9.weight);
+		System.out.println("updated sensor:"+m9.sensor);
+		System.out.println("updated origin:"+m9.origin);
+		System.out.println("updated warranty:"+m9.warranty);
+		System.out.println("updated silent:"+m9.silent);
+		System.out.println("");
+
+
+		Mouse m10=new Mouse();
+		m10.color="Purple";
+		m10.type="Wireless";
+		m10.price=1200;
+		m10.buttons=6;
+		m10.rgb=true;
+		m10.brand="HP";
+		m10.dpi=2600;
+		m10.connectivity="Bluetooth";
+		m10.rechargeable=true;
+		m10.model="M110";
+		m10.weight=140;
+		m10.sensor="Optical";
+		m10.origin="USA";
+		m10.warranty=2;
+		m10.silent=false;
+
+		System.out.println("updated color:"+m10.color);
+		System.out.println("updated type:"+m10.type);
+		System.out.println("updated price:"+m10.price);
+		System.out.println("updated buttons:"+m10.buttons);
+		System.out.println("updated rgb:"+m10.rgb);
+		System.out.println("updated brand:"+m10.brand);
+		System.out.println("updated dpi:"+m10.dpi);
+		System.out.println("updated connectivity:"+m10.connectivity);
+		System.out.println("updated rechargeable:"+m10.rechargeable);
+		System.out.println("updated model:"+m10.model);
+		System.out.println("updated weight:"+m10.weight);
+		System.out.println("updated sensor:"+m10.sensor);
+		System.out.println("updated origin:"+m10.origin);
+		System.out.println("updated warranty:"+m10.warranty);
+		System.out.println("updated silent:"+m10.silent);
+		System.out.println("");
+	}
+}

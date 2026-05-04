@@ -1,0 +1,16 @@
+class Star{
+	 
+	 
+public static void main(String[] args){
+	int i;
+	int j;
+	
+	
+	for(i=0;i<n;i++)
+		for(j=0;j<n;j++){
+		System.out.println("*");
+}
+System.out.println();
+}
+}
+
