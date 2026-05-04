@@ -55,12 +55,19 @@ A: this keyword is actually refers to the instance variables which this keyword 
 
 
 9) a) class Star{
-
+	 
+	 
 public static void main(String[] args){
+	int i;
+	int j;
 	
-	for(i=0;i<5;i++)
+	
+	for(i=0;i<5;i++){
 		for(j=0;j<5;j++){
-		System.out.println("*");
+		System.out.print(" *");
+}
+System.out.println();
+}
 }
 }
 
