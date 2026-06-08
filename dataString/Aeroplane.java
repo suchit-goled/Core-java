@@ -1,3 +1,5 @@
+package dataString;
+
 class Aeroplane {
 
     String[] planes = new String[5];
