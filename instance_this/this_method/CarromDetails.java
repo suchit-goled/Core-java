@@ -1,3 +1,7 @@
+package instance_this.this_method;
+
+import instance_this.this_method.class_invoking.Carrom;
+
 class CarromDetails {
 	
 	CarromDetails(){

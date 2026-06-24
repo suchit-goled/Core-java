@@ -1,3 +1,5 @@
+package instance_this;
+
 class AsianPaintRunner {
     public static void main(String[] args) {
 
