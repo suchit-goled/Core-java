@@ -1,8 +1,8 @@
-package com.suchit.Exceptions;
+package com.suchit.Exceptions.Unchecked;
 
 
 
-public class NestedCatch {
+public class UncheckedException{
 
     public static void main(String[] args){
         int A[]={30,20,10,40,0};

@@ -1,6 +1,6 @@
-package com.suchit.Exceptions;
+package com.suchit.Exceptions.Checked;
 
-public class CheckedUnchecked {
+public class Checked {
 
     public static void main(String[] args){
         try{

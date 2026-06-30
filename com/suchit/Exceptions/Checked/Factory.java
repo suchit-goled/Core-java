@@ -1,4 +1,4 @@
-package com.suchit.Exceptions;
+package com.suchit.Exceptions.Checked;
 
 public class Factory {
 
